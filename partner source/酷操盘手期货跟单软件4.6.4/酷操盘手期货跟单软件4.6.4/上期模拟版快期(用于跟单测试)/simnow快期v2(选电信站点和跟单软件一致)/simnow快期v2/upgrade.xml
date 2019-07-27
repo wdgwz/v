@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312"?>
+<root>
+    <appid>Q72_shinny_21007</appid>
+    <stage>standard</stage>
+    <mainexe>q7_release.exe</mainexe>
+    <publish>http://publish2.shinnytech.com</publish>
+    <components>
+        <item name="shinnyclient2" low="2.92.62.347" lowhash="701b952a24b37ceabb8f3c1dc706cb104cf0bc6b"/>
+        <item name="p_shinny_21007"/>
+    </components>
+</root>

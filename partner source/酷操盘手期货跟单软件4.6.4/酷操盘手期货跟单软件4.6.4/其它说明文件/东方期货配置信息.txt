@@ -1,0 +1,16 @@
+[AccountInfo1]
+groupid=1
+clienttype=0
+run=1
+stoptraderpercent=95
+autochangepassword=0
+dirction=0
+tradepercent=0
+positionpercent=0
+slippoint=0
+autoclose=0
+brokeid=0127
+username=
+password=
+servernum=1
+address1=tcp://101.230.3.50:18000

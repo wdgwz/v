@@ -1,0 +1,2 @@
+这是KUCPS内置模拟账户的TD ThostTraderApi.dll的例子（类似CTP  thosttraderapi.dll 库文件）
+功能目前正在完善中

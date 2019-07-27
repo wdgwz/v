@@ -1,0 +1,5 @@
+thostmduserapi.dll  是CTP API原生DLL
+thosttraderapi.dll  是知富的交易API的DLL
+
+请向知富公司索取正确的BROKEID,IP,SOCEKT,账户,密码
+尽量不要提跟单软件接入知富账户，就说自己开发CTP策略，或移植CTP策略，以免导致不必要的麻烦。

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<root>
+	<broker BrokerID="9090" BrokerName="西部期货" BrokerEName="xbqh">
+		<FloatProfitAlgorithm>浮盈浮亏都计算</FloatProfitAlgorithm>		
+		<MarginAlgorithm>按开仓价计算</MarginAlgorithm>
+		<IsDiscountCZCE>1</IsDiscountCZCE>		
+		<IsOldRiskAlg>0</IsOldRiskAlg>
+		<Servers>
+			<Server>
+				<Name>电信网络</Name>
+				<Trading>
+					<item>dx1.xbqhctp.com:41205</item>
+				</Trading>
+				<MarketData>
+					<item>dx1.xbqhctp.com:41213</item>
+				</MarketData>
+			</Server>
+			<Server>
+				<Name>联通网络</Name>
+				<Trading>
+					<item>lt1.xbqhctp.com:41205</item>
+					<item>lt2.xbqhctp.com:41205</item>
+				</Trading>
+				<MarketData>
+					<item>lt1.xbqhctp.com:41213</item>
+				    <item>lt2.xbqhctp.com:41213</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+</root>

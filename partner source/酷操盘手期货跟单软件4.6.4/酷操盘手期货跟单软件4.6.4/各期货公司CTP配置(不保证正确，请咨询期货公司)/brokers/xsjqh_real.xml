@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<root>
+	<broker BrokerID="9070" BrokerName="新世纪期货" BrokerEName="xsjqh">
+		<FloatProfitAlgorithm>浮盈浮亏都计算</FloatProfitAlgorithm>		
+		<MarginAlgorithm>按开仓价计算</MarginAlgorithm>
+		<IsDiscountCZCE>1</IsDiscountCZCE>		
+		<IsOldRiskAlg>0</IsOldRiskAlg>
+		<Servers>
+			<Server>
+				<Name>电信网络</Name>
+				<Trading>
+					<item>180.166.47.112:41205</item>
+					<item>180.166.47.113:41205</item>
+					<item>180.166.47.115:41205</item>
+				</Trading>
+				<MarketData>
+					<item>180.166.47.112:41213</item>
+					<item>180.166.47.113:41213</item>
+					<item>180.166.47.115:41213</item>
+				</MarketData>
+			</Server>
+			<Server>
+				<Name>联通网络</Name>
+				<Trading>
+					<item>27.115.57.244:41205</item>
+					<item>27.115.57.245:41205</item>
+					<item>27.115.57.246:41205</item>
+				</Trading>
+				<MarketData>
+					<item>27.115.57.244:41213</item>
+					<item>27.115.57.245:41213</item>
+					<item>27.115.57.246:41213</item>
+				</MarketData>
+			</Server>
+			<Server>
+				<Name>专线</Name>
+				<Trading>
+					<item>172.17.9.1:41205</item>
+					<item>172.17.9.2:41205</item>
+				</Trading>
+				<MarketData>
+					<item>172.17.9.1:41213</item>
+					<item>172.17.9.2:41213</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+</root>

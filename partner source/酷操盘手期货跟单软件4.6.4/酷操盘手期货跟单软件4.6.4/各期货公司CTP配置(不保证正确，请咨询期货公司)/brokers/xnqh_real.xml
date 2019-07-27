@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<root>
+	<broker BrokerID="3497" BrokerName="西南期货" BrokerEName="xnqh">
+		<FloatProfitAlgorithm>浮盈浮亏都计算</FloatProfitAlgorithm>		
+		<MarginAlgorithm>按开仓价计算</MarginAlgorithm>
+		<IsDiscountCZCE>1</IsDiscountCZCE>		
+		<IsOldRiskAlg>0</IsOldRiskAlg>
+		<Servers>
+			<Server>
+				<Name>上海电信</Name>
+				<Trading>
+					<item>180.169.116.182:41205</item>
+				</Trading>
+				<MarketData>
+					<item>180.169.116.182:41213</item>
+				</MarketData>
+			</Server>
+			<Server>
+				<Name>上海联通</Name>
+				<Trading>
+					<item>140.206.101.62:41205</item>
+				</Trading>
+				<MarketData>
+					<item>140.206.101.62:41213</item>
+				</MarketData>
+			</Server>
+			<Server>
+				<Name>公司场内交易站点1</Name>
+				<Trading>
+					<item>172.20.24.216:41205</item>
+				</Trading>
+				<MarketData>
+					<item>172.20.24.216:41213</item>
+				</MarketData>
+			</Server>
+			<Server>
+				<Name>公司场内交易站点2</Name>
+				<Trading>
+					<item>172.20.24.214:41205</item>
+				</Trading>
+				<MarketData>
+					<item>172.20.24.214:41213</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+</root>

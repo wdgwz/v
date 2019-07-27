@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="GB2312" ?>
+
+<root>
+	<broker BrokerID="4050" BrokerName="上海金源二席">
+		<FloatProfitAlgorithm>浮盈浮亏都计算</FloatProfitAlgorithm>		
+		<!--
+			"浮盈浮亏都计算";
+			"浮盈不计，浮亏计";
+			"浮盈计，浮亏不计";
+			"浮盈浮亏都不计算";
+		-->
+		<MarginAlgorithm>按开仓价计算</MarginAlgorithm>
+		<!--
+			"按前结算计算";
+			"按最新价计算";
+			"盘中按最新价计算, 盘后按结算价计算";
+			"按最新均价计算";
+			"按开仓价计算";
+		-->		
+		<IsDiscountCZCE>1</IsDiscountCZCE>		
+		<!--
+			郑州组合第二腿是否免收保证金
+		-->		
+		<Servers>
+			<Server>
+				<Name>上海电信</Name>
+				<Trading>
+					<item>shjy-front1-shctc-ctp2.jyqh.com.cn:41205</item>
+					<item>shjy-front2-shctc-ctp2.jyqh.com.cn:41205</item>
+					<item>shjy-front3-shctc-ctp2.jyqh.com.cn:41205</item>
+					<item>116.228.31.210:41205</item>
+				</Trading>
+				<MarketData>
+					<item>shjy-front1-shctc-ctp2.jyqh.com.cn:41213</item>
+					<item>shjy-front2-shctc-ctp2.jyqh.com.cn:41213</item>
+					<item>shjy-front3-shctc-ctp2.jyqh.com.cn:41213</item>
+					<item>116.228.31.210:41213</item>
+				</MarketData>
+			</Server>
+			<Server>
+				<Name>上海联通</Name>
+				<Trading>
+					<item>shjy-front1-shcnc-ctp2.jyqh.com.cn:41205</item>
+					<item>shjy-front2-shcnc-ctp2.jyqh.com.cn:41205</item>
+					<item>shjy-front3-shcnc-ctp2.jyqh.com.cn:41205</item>
+					<item>27.115.57.91:41205</item>
+				</Trading>
+				<MarketData>
+					<item>shjy-front1-shcnc-ctp2.jyqh.com.cn:41213</item>
+					<item>shjy-front2-shcnc-ctp2.jyqh.com.cn:41213</item>
+					<item>shjy-front3-shcnc-ctp2.jyqh.com.cn:41213</item>
+					<item>27.115.57.91:41213</item>
+				</MarketData>
+			</Server>
+			<Server>
+				<Name>专线</Name>
+				<Trading>
+					<item>172.19.18.2:41205</item>
+					<item>172.19.18.3:41205</item>
+				</Trading>
+				<MarketData>
+					<item>172.19.18.2:41213</item>
+					<item>172.19.18.3:41213</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+</root>

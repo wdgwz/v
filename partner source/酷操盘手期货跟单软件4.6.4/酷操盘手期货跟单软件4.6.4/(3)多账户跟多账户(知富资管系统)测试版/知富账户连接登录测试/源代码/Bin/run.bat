@@ -1,0 +1,1 @@
+testTraderApi.exe 2> run.log

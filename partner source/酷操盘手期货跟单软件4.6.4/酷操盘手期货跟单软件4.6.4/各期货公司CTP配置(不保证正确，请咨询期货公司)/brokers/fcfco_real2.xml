@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<root>
+	<broker BrokerID="9030" BrokerName="第一创业" BrokerEName="fcfco">
+		<FloatProfitAlgorithm>浮盈浮亏都计算</FloatProfitAlgorithm>		
+		<!--
+			"浮盈浮亏都计算";
+			"浮盈不计，浮亏计";
+			"浮盈计，浮亏不计";
+			"浮盈浮亏都不计算";
+		-->
+		<MarginAlgorithm>按开仓价计算</MarginAlgorithm>
+		<!--
+			"按前结算计算";
+			"按最新价计算";
+			"盘中按最新价计算, 盘后按结算价计算";
+			"按最新均价计算";
+			"按开仓价计算";
+		-->		
+		<IsDiscountCZCE>1</IsDiscountCZCE>		
+		<!--
+			郑州组合第二腿是否免收保证金
+			郑州锁仓是否优惠保证金
+		-->		
+		<IsOldRiskAlg>0</IsOldRiskAlg>
+		<!--
+			是否使用老的风险度算法
+		-->	
+		<Servers>
+			<Server>
+				<Name>电信网络</Name>
+				<Trading>
+					<item>ctpdx-tr1.fcfco.cn:41205</item>
+					<item>ctpdx-tr2.fcfco.cn:41205</item>
+					<item>ctpdx-tr3.fcfco.cn:41205</item>
+					<item>180.166.30.97:41205</item>
+					<item>180.166.30.98:41205</item>
+				</Trading>
+				<MarketData>
+					<item>ctpdx-md1.fcfco.cn:41213</item>
+					<item>ctpdx-md2.fcfco.cn:41213</item>
+					<item>ctpdx-md3.fcfco.cn:41213</item>
+					<item>180.166.30.97:41213</item>
+					<item>180.166.30.98:41213</item>
+				</MarketData>
+			</Server>
+			<Server>
+				<Name>联通网络</Name>
+				<Trading>
+					<item>ctplt-tr1.fcfco.cn:41205</item>
+					<item>ctplt-tr2.fcfco.cn:41205</item>
+					<item>ctplt-tr3.fcfco.cn:41205</item>
+					<item>140.206.102.178:41205</item>
+					<item>140.206.102.177:41205</item>
+				</Trading>
+				<MarketData>
+					<item>ctplt-md1.fcfco.cn:41213</item>
+					<item>ctplt-md2.fcfco.cn:41213</item>
+					<item>ctplt-md3.fcfco.cn:41213</item>
+					<item>140.206.102.178:41213</item>
+					<item>140.206.102.177:41213</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+</root>

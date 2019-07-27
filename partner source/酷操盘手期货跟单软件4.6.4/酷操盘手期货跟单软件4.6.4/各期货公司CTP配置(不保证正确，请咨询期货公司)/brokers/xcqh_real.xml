@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<root>
+	<broker BrokerID="3989" BrokerName="新晟期货" BrokerEName="xcqh">
+		<FloatProfitAlgorithm>浮盈浮亏都计算</FloatProfitAlgorithm>		
+		<MarginAlgorithm>按开仓价计算</MarginAlgorithm>
+		<IsDiscountCZCE>1</IsDiscountCZCE>		
+		<IsOldRiskAlg>0</IsOldRiskAlg>
+		<Servers>
+			<Server>
+				<Name>电信网络</Name>
+				<Trading>
+					<item>180.166.182.18:41205</item>
+				</Trading>
+				<MarketData>
+					<item>180.166.182.18:41213</item>
+				</MarketData>
+			</Server>
+			<Server>
+				<Name>联通网络</Name>
+				<Trading>
+					<item>140.206.103.218:41205</item>
+				</Trading>
+				<MarketData>
+					<item>140.206.103.218:41213</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+</root>

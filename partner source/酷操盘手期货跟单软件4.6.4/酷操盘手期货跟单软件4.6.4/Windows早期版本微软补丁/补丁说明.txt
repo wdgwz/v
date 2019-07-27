@@ -1,0 +1,1 @@
+因为程序采用的都是比较新的微软SDK开发包Windows8.1、Windows Server2012以上，在早期的Windows7和Windows Server 2008系统上需要安装微软的升级补丁，方可顺利运行。

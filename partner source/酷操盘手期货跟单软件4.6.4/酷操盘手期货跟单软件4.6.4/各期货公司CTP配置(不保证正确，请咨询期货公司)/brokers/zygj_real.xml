@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<root>
+	<broker BrokerID="5040" BrokerName="中银国际" BrokerEName="zygj">
+		<FloatProfitAlgorithm>浮盈浮亏都计算</FloatProfitAlgorithm>		
+		<!--
+			"浮盈浮亏都计算";
+			"浮盈不计，浮亏计";
+			"浮盈计，浮亏不计";
+			"浮盈浮亏都不计算";
+		-->
+		<MarginAlgorithm>按开仓价计算</MarginAlgorithm>
+		<!--
+			"按前结算计算";
+			"按最新价计算";
+			"盘中按最新价计算, 盘后按结算价计算";
+			"按最新均价计算";
+			"按开仓价计算";
+		-->		
+		<IsDiscountCZCE>1</IsDiscountCZCE>
+		<!--
+			郑州组合第二腿是否免收保证金
+		-->		
+		<Servers>
+			<Server>
+				<Name>电信线路</Name>
+				<Trading>
+					<item>116.228.64.6:41205</item>
+					<item>116.228.64.7:41205</item>
+				</Trading>
+				<MarketData>
+					<item>116.228.64.6:41213</item>
+					<item>116.228.64.7:41213</item>
+				</MarketData>
+			</Server>
+			<Server>
+				<Name>联通线路</Name>
+				<Trading>
+					<item>27.115.105.112:41205</item>
+					<item>27.115.105.122:41205</item>
+				</Trading>
+				<MarketData>
+					<item>27.115.105.112:41213</item>
+					<item>27.115.105.122:41213</item>
+				</MarketData>
+			</Server>
+			<Server>
+				<Name>盘后查询</Name>
+				<Trading>
+					<item>116.228.64.8:41205</item>
+				</Trading>
+				<MarketData>
+					<item>116.228.64.8:41213</item>
+				</MarketData>
+			</Server>
+		</Servers>
+	</broker>
+</root>
