@@ -14,7 +14,7 @@
 
 vn.py是一套基于Python的开源量化交易系统开发框架，于2015年1月正式发布，在开源社区5年持续不断的贡献下一步步成长为全功能量化交易平台，目前国内外金融机构用户已经超过300家，包括：私募基金、证券自营和资管、期货资管和子公司、高校研究机构、自营交易公司、交易所、Token Fund等。
 
-使用过程中有任何疑问，请查看[**vn.py项目文档**](https://www.vnpy.com/docs/cn/index.html)，如果无法解决请前往[**官方社区论坛**](https://www.vnpy.com/forum/)的【提问求助】板块寻求帮助，也欢迎在【经验分享】板块分享你的使用心得！
+使用过程中有任何疑问，请查看[**vn.py项目文档**](https://www.vnpy.cn) 
 
 官方微信公众号：**vnpy-community**，接下来将在公众号中陆续上线各种关于vn.py的使用教程，欢迎关注。
 
@@ -110,8 +110,7 @@ vn.py是一套基于Python的开源量化交易系统开发框架，于2015年1�
 
 ## 安装步骤
 
-在[这里](https://github.com/vnpy/vnpy/releases)下载最新版本，解压后运行以下命令安装：
-
+在[这里](https://github.com/wdgwz/vnpy/releases)下载最新版本，解压后运行以下命令安装：
 **Windows**
 
     install.bat
@@ -125,7 +124,7 @@ vn.py是一套基于Python的开源量化交易系统开发框架，于2015年1�
 
 1. 在[SimNow](http://www.simnow.com.cn/)注册CTP仿真账号，并在[该页面](http://www.simnow.com.cn/product.action)获取经纪商代码以及交易行情服务器地址。
 
-2. 在[vn.py社区论坛](https://www.vnpy.com/forum/)注册获得VN Station账号密码（论坛账号密码即是）
+2. VirtualAPi For CTP支持VNPY的CTP框架进行回测，并保证实盘代码和回测代码一模一样 http://www.virutalapi.cn 。
 
 3. 启动VN Station（安装VNConda后会在桌面自动创建快捷方式），输入上一步的账号密码登录
 
@@ -177,9 +176,9 @@ if __name__ == "__main__":
 
 vn.py使用Github托管其源代码，如果希望贡献代码请使用github的PR(Pull Request)的流程:
 
-1. [创建 Issue](https://github.com/vnpy/vnpy/issues/new) - 对于较大的改动(如新功能，大型重构等)最好先开issue讨论一下，较小的improvement(如文档改进，bugfix等)直接发PR即可
+1. [创建 Issue](https://github.com/wdgwz/vnpy/issues/new) - 对于较大的改动(如新功能，大型重构等)最好先开issue讨论一下，较小的improvement(如文档改进，bugfix等)直接发PR即可
 
-2. Fork [vn.py](https://github.com/vnpy/vnpy) - 点击右上角**Fork**按钮
+2. Fork [vn.py](https://github.com/wdgwz/vnpy) - 点击右上角**Fork**按钮
 
 3. Clone你自己的fork: ```git clone https://github.com/$userid/vnpy.git```
 	* 如果你的fork已经过时，需要手动sync：[https://help.github.com/articles/syncing-a-fork/](https://help.github.com/articles/syncing-a-fork/)
@@ -213,10 +212,10 @@ vn.py使用Github托管其源代码，如果希望贡献代码请使用github的
 
 ## 其他内容
 
-* [获取帮助](https://github.com/vnpy/vnpy/blob/dev/docs/SUPPORT.md)
-* [社区行为准侧](https://github.com/vnpy/vnpy/blob/dev/docs/CODE_OF_CONDUCT.md)
-* [Issue模板](https://github.com/vnpy/vnpy/blob/dev/docs/ISSUE_TEMPLATE.md)
-* [PR模板](https://github.com/vnpy/vnpy/blob/dev/docs/PULL_REQUEST_TEMPLATE.md)
+* [获取帮助](https://github.com/wdgwz/vnpy/blob/dev/docs/SUPPORT.md)
+* [社区行为准侧](https://github.com/wdgwz/vnpy/blob/dev/docs/CODE_OF_CONDUCT.md)
+* [Issue模板](https://github.com/wdgwz/vnpy/blob/dev/docs/ISSUE_TEMPLATE.md)
+* [PR模板](https://github.com/wdgwz/vnpy/blob/dev/docs/PULL_REQUEST_TEMPLATE.md)
 
 
 
