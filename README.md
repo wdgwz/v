@@ -13,8 +13,38 @@
 </p>
 
 vn.py是一套基于Python的开源量化交易系统开发框架，于2015年1月正式发布，在开源社区5年持续不断的贡献下一步步成长为全功能量化交易平台，目前国内外金融机构用户已经超过300家，包括：私募基金、证券自营和资管、期货资管和子公司、高校研究机构、自营交易公司、交易所、Token Fund等。
+对vn.py和量化交易新手的建议：
 
-使用过程中有任何疑问，请查看[**vn.py项目文档**](https://www.vnpy.com/docs/cn/index.html)，如果无法解决请前往[**官方社区论坛**](https://www.vnpy.com/forum/)的【提问求助】板块寻求帮助，也欢迎在【经验分享】板块分享你的使用心得！
+1.Python 适合用于快速开发，解释性语言导致了运行效率比较低，但是开发速度相对于其他语言却很高。当然Python做数据分析的效率比较高，但是做底层会下降一个 数量级的原因，所以尽可能建议用成熟的资管系统去实现多账户。目前虚拟币市场比较混乱，厂商的API水平参差不齐，而A股禁止使用资管系统，外盘相对而言 波动小是一个更成熟的市场，国内的期货的API是最成熟和完善的，那么期货的资管也很丰富，包括了信管家、融航、酷操盘手等。
+
+2.因为搭建整个量化平台需要涉及很多，包括数据处理，策略开发，底层搭建，而这些工作在私募基金是由一个团队去完成的，如果是一个爱好者自己做怎么的也得3-5年吧。所以给出的建议是，尽可能的将精力放在策略开发上，对底层和框架可以拿来主义。
+
+3.对一些人工智能库该怎么用，对大多数程序员来说也只是学会调用，能做到调参的已经是比较高的水平了。若想真正做到精通人工智能算法，对程序员也 不是一个简单的工作，更不要说一般爱好者了，人工智能算法需要的是优秀的算法工程师 ， 要熟练的掌握高等数学、线性代数、离散数学、组合数学、矩阵论、概率统计等数学课程，数据结构 （树、链表、矩阵、图）等各种典型的数据结构以及常用的查找和排序算法（比如冒泡排序、快速排序、二分查找、希尔排序等，熟悉各自算法的时间复杂度）。对 于通用型的算法思想，比如递推、分治、贪心、递归、动态规划等算法策略要熟记于心并能灵活运用。要做好人工智能算法这一些都离不开深厚的数学功底。。 所以所以对一般量化交易爱好者而言，一上来不要追求人工智能去开发策略。
+
+4.vn.py python框架也在不断进化，vn.py目前最大的问题是性能问题，相信未来还有更好的框架出现，建议爱好者将精力方在策略开发上，策略相比平台则是更保值的东西。
+
+vn.py (http://www.vnpy.cn) 是基于Python的开源量化交易系统开发框架，起源于中国国内私募基金的自主交易系统。2015年1月项目正式在Github发布，在开源社区数年持续 不断的贡献下，已经从早期的交易API接口封装，一步步成长为一套多市场多接口的量化交易平台。随着量化交易行业业内关注度的上升，用户群体也日渐多样 化，包括：高校研究机构、专业个人投资者、私募基金、期货资管、证券自营和资管等等。 vn.py由于属于纯Python架构不适合搭建多账户系统，因为Python适合数据处理，但不适合多账户的并发。如需要多账户，消除原始VN.PY性 能架构缺陷，建议采用资管系统来实现。 期货资管系统推荐酷操盘手系列 http://www.kucps.com/ 虽然是商业化产品，但是是可以获得免费使用的。
+
+其他量化交易网站，和支持VN.PY扩展功能
+
+
+[支持VNPY和任意自编程序的底层仿真TICK级回测系统，实盘代码和回测代码100%一致] http://www.virtualapi.cn/
+
+[实盘低佣金开户，为了给广大量化交易爱好者提供便利，我们帮大家和期货公司谈的手续费非常低了，交易所标准加1分，交反40~90%支持CTP接口] http://www.kaihucn.cn/
+
+[上海期货交易所CTP接口，支持模拟账户注册] http://www.simnow.com.cn
+
+[酷操盘手资管软件、酷操盘手跟单软件系列] http://www.kucps.com/
+
+[行情数据免费下载] http://www.mdshare.cn/
+
+[量化资源导航] http://www.pythonpai.cn
+
+[量化交易社区] http://www.pythonpai.com
+
+[A股交易工具] http://www.quicklib.net
+
+使用过程中有任何疑问，请查看[**vn.py项目文档**](https://www.vnpy.cn) 
 
 官方微信公众号：**vnpy-community**，接下来将在公众号中陆续上线各种关于vn.py的使用教程，欢迎关注。
 
@@ -110,8 +140,7 @@ vn.py是一套基于Python的开源量化交易系统开发框架，于2015年1�
 
 ## 安装步骤
 
-在[这里](https://github.com/vnpy/vnpy/releases)下载最新版本，解压后运行以下命令安装：
-
+在[这里](https://github.com/wdgwz/vnpy/releases)下载最新版本，解压后运行以下命令安装：
 **Windows**
 
     install.bat
@@ -125,7 +154,7 @@ vn.py是一套基于Python的开源量化交易系统开发框架，于2015年1�
 
 1. 在[SimNow](http://www.simnow.com.cn/)注册CTP仿真账号，并在[该页面](http://www.simnow.com.cn/product.action)获取经纪商代码以及交易行情服务器地址。
 
-2. 在[vn.py社区论坛](https://www.vnpy.com/forum/)注册获得VN Station账号密码（论坛账号密码即是）
+2. VirtualAPi For CTP支持VNPY的CTP框架进行回测，并保证实盘代码和回测代码一模一样 http://www.virutalapi.cn 。
 
 3. 启动VN Station（安装VNConda后会在桌面自动创建快捷方式），输入上一步的账号密码登录
 
@@ -177,9 +206,9 @@ if __name__ == "__main__":
 
 vn.py使用Github托管其源代码，如果希望贡献代码请使用github的PR(Pull Request)的流程:
 
-1. [创建 Issue](https://github.com/vnpy/vnpy/issues/new) - 对于较大的改动(如新功能，大型重构等)最好先开issue讨论一下，较小的improvement(如文档改进，bugfix等)直接发PR即可
+1. [创建 Issue](https://github.com/wdgwz/vnpy/issues/new) - 对于较大的改动(如新功能，大型重构等)最好先开issue讨论一下，较小的improvement(如文档改进，bugfix等)直接发PR即可
 
-2. Fork [vn.py](https://github.com/vnpy/vnpy) - 点击右上角**Fork**按钮
+2. Fork [vn.py](https://github.com/wdgwz/vnpy) - 点击右上角**Fork**按钮
 
 3. Clone你自己的fork: ```git clone https://github.com/$userid/vnpy.git```
 	* 如果你的fork已经过时，需要手动sync：[https://help.github.com/articles/syncing-a-fork/](https://help.github.com/articles/syncing-a-fork/)
@@ -188,7 +217,7 @@ vn.py使用Github托管其源代码，如果希望贡献代码请使用github的
 
 5. 在$my_feature_branch上修改并将修改push到你的fork上
 
-6. 创建从你的fork的$my_feature_branch分支到主项目的**dev**分支的[Pull Request] -  [在此](https://github.com/vnpy/vnpy/compare?expand=1)点击**compare across forks**，选择需要的fork和branch创建PR
+6. 创建从你的fork的$my_feature_branch分支到主项目的**dev**分支的[Pull Request] -  [在此](https://github.com/wdgwz/vnpy/compare?expand=1)点击**compare across forks**，选择需要的fork和branch创建PR
 
 7. 等待review, 需要继续改进，或者被Merge!
 
@@ -203,20 +232,17 @@ vn.py使用Github托管其源代码，如果希望贡献代码请使用github的
 
 过去5年中收到过许多社区用户的捐赠，在此深表感谢！所有的捐赠资金都投入到了vn.py社区基金中，用于支持vn.py项目的运作。
 
-先强调一下：**vn.py是开源项目，可以永久免费使用，并没有强制捐赠的要求！！！**
+先强调一下：**vn.py是开源项目，可以永久免费使用 ！！！**
 
-捐赠方式：支付宝3216630132@qq.com（*晓优）
-
-长期维护捐赠清单，请在留言中注明是项目捐赠以及捐赠人的名字。
-
+VNPY原始作者：用Python的程序员 还有其他为VNPY做出贡献的其他作者
 
 
 ## 其他内容
 
-* [获取帮助](https://github.com/vnpy/vnpy/blob/dev/docs/SUPPORT.md)
-* [社区行为准侧](https://github.com/vnpy/vnpy/blob/dev/docs/CODE_OF_CONDUCT.md)
-* [Issue模板](https://github.com/vnpy/vnpy/blob/dev/docs/ISSUE_TEMPLATE.md)
-* [PR模板](https://github.com/vnpy/vnpy/blob/dev/docs/PULL_REQUEST_TEMPLATE.md)
+* [获取帮助](https://github.com/wdgwz/vnpy/blob/dev/docs/SUPPORT.md)
+* [社区行为准侧](https://github.com/wdgwz/vnpy/blob/dev/docs/CODE_OF_CONDUCT.md)
+* [Issue模板](https://github.com/wdgwz/vnpy/blob/dev/docs/ISSUE_TEMPLATE.md)
+* [PR模板](https://github.com/wdgwz/vnpy/blob/dev/docs/PULL_REQUEST_TEMPLATE.md)
 
 
 
