@@ -1,0 +1,18 @@
+查找数据
+
+创建如下的dataframe
+
+dates = pd.date_range('20121001',periods=10)
+df = pd.DataFrame(np.random.randn(10,4) , index = dates,columns=list('abcd'))
+
+可以有各种方式获取df中的全部或部分数据
+
+df['a']  #按照列名获取指定的列，返回的是一个Series，其中key是索引，value是该列对应的字段值
+
+df[:2] #获取前2行数据，效果等同 df[0:2]，返回的是一个新的dataframe
+
+df[2:5] #获取第3行~5行 这3条记录，返回的是一个新的dataframe
+
+df.loc['20121009'] #获取指定索引的行，等同于  df.loc['2012-10-09']，返回的是一个Series，其中key是列名，value是该列对应的字段值
+
+df.iloc[3]  #获取指定序号的行，这里是第4行
