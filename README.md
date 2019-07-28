@@ -128,7 +128,7 @@ vn.py (http://www.vnpy.cn) 是基于Python的开源量化交易系统开发框�
 
 7. Python高性能K线图表（vnpy.chart），支持大数据量图表显示以及实时数据更新功能。
 
-8. [社区论坛](http://www.vnpy.com)和[知乎专栏](http://zhuanlan.zhihu.com/vn-py)，内容包括vn.py项目的开发教程和Python在量化交易领域的应用研究等内容。
+8. [社区论坛](http://www.vnpy.cn)和[知乎专栏](http://zhuanlan.zhihu.com/vn-py)，内容包括vn.py项目的开发教程和Python在量化交易领域的应用研究等内容。
 
 9.  官方交流群262656087（QQ），管理严格（定期清除长期潜水的成员），入群费将捐赠给vn.py社区基金。
 
@@ -140,7 +140,7 @@ vn.py (http://www.vnpy.cn) 是基于Python的开源量化交易系统开发框�
 
 ## 安装步骤
 
-在[这里](https://github.com/wdgwz/vnpy/releases)下载最新版本，解压后运行以下命令安装：
+在[这里](https://github.com/vnpycn/vnpy/releases)下载最新版本，解压后运行以下命令安装：
 **Windows**
 
     install.bat
